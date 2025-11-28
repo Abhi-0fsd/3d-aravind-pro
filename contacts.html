@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f3f3;
+            text-align: center;
+            padding-top: 40px;
+        }
+        .container {
+            width: 90%;
+            max-width: 450px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 15px;
+        }
+        .contact-item img {
+            width: 32px;
+        }
+        .back-btn {
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>CONTACT DETAILS</h2>
+
+        <div class="contact-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png">
+            <a href="tel:+919444210661" style="color:#007bff; font-weight:bold;">
+                9444210661
+            </a>
+        </div>
+
+        <div class="contact-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+            <a href="https://wa.me/919444210661" 
+               target="_blank" style="color:#25D366; font-weight:bold;">
+                Chat on WhatsApp
+            </a>
+        </div>
+
+        <div class="contact-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
+            <a href="https://www.instagram.com/anu.3dprints" 
+               target="_blank" style="color:#007bff; font-weight:bold;">
+                @anu.3dprints
+            </a>
+        </div>
+
+        <button class="back-btn" onclick="location.href='index.html'">BACK</button>
+    </div>
+</body>
+</html>
